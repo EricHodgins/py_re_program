@@ -58,7 +58,6 @@ while True:
 		for person_info in person.attributes:
 			try:
 				if re.search(search_item, person_info) != None:
-					print("\n")
 					print(person)
 					print("\n")
 					break
